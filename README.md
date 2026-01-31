@@ -32,7 +32,7 @@ Analyzes a list of integers. Returns a dictionary consisting of the integers as 
 
 ## Question 7.py:
 
-Receives numerical input for the amount of seconds since midnight. Returns the corresponding hours, minutes, and seconds in addition to rwhether the time is in AM or PM.
+Receives numerical input for the amount of seconds since midnight. Returns the corresponding hours, minutes, and seconds in addition to whether the time is in AM or PM.
 
 ## Question 8.py:
 
