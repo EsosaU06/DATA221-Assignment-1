@@ -10,19 +10,20 @@ def NestedDictionaryFromStrings(listInput = None):
         # look through every word in the list that was given
         
         wordDictionary[word] = {"length": 0, "parity": "none"}
-        # creating a dictionary for the word itself
+        # create a dictionary for the word itself
         
         wordDictionary[word]["length"] = len(word)
-        # Setting the value for the "length" key to
+        # set the value for the "length" key to
         # the length of the word
         
         if len(word) % 2 == 0:
             # check if the word is even by
-            # checking if the remainder is zero
+            # check if the remainder is zero
             wordDictionary[word]["parity"] = "even"
         else:
             wordDictionary[word]["parity"] = "odd"
             
     return wordDictionary
 
+# example code:
 # print(NestedDictionaryFromStrings([["This"], ["is"], ["a"], ["test!"]]))

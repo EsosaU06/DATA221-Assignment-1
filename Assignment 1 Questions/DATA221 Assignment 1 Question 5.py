@@ -24,5 +24,5 @@ def AreaCoveredBySmallerCircle(radiusOfFirstCircle, radiusOfSecondCircle):
     except:
         return ("Invalid input, at least one radius given is a string.")
     
-# example code, i used this for testing
+# example code:
 # print(AreaCoveredBySmallerCircle(1.1, 2))

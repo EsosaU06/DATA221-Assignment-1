@@ -10,24 +10,25 @@ def sortRandomListOfValues(listOfValues, x):
     
     for value in listOfValues:
         if value >= x:
-            # checking if the value is greater than or equal to x
+            # check if the value is greater than or equal to x
             greaterOrEqualToXList.append(value)
             # if it is, it is added to the list
     
     # The print statements:
     print(f"Sorted List:\n{listOfValues}", end="\n\n")
     
-    # adding a double space between inputs to improve readability
+    # i added a double space between inputs to improve readability
     print(f"x = {x}", end="\n\n")
     
     
     if len(greaterOrEqualToXList)>0:
-        # this if statement checks
-        # if there are any numbers that are
-        # greater than or equal to x
+        # this if-statement checks
+        # if there were any values
+        # found that are greater
+        # than or equal to x
         
         print(f"The first value in the list that is greater than or equal to x is {greaterOrEqualToXList[0]}.")
-        # greaterOrEqualToXList[0] -> The first value the program found that is greater than or equal to x
+        # first index in the list created
 
 # i decided to keep the starter code in
 

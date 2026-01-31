@@ -1,8 +1,10 @@
 def ListDistributionAnalysis(listInput=None):
-    if listInput is None: # checking if a list was given
+    if listInput is None:
+        # check if a list was given
         return None
     
-    amountOfNumbersInList = len(listInput) # a descriptive variable
+    amountOfNumbersInList = len(listInput)
+    # used when computing the percentage
     
     uniqueValueDictionary = {} # creating a dictionary to store the unique values
     

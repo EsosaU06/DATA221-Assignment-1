@@ -30,5 +30,5 @@ def timeFromSecondsSinceMidnight(amountInSeconds):
     
     return(f"{amountInHours} {amountInMinutes} {amountInSeconds} {amOrPm}")
         
-# test code:
+# example code:
 # print(timeFromSecondsSinceMidnight(26500))
