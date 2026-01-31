@@ -2,6 +2,8 @@
 
 Each python file corresponds to a question on the assignment. Each file runs from one main function but there are some files in which a print statement is needed the values returned.
 
+With the functions that return values, you may see example code commented out. I used it for testing, but I did not delete them, as I think they could have some use during grading.
+
 Each file starts with "DATA221 Assignment 1".
 
 ## Question 1.py:
