@@ -25,4 +25,4 @@ def NestedDictionaryFromStrings(listInput = None):
             
     return wordDictionary
 
-# print(NestedDictionaryFromStrings(["This", "is", "a", "test!"]))
+# print(NestedDictionaryFromStrings([["This"], ["is"], ["a"], ["test!"]]))

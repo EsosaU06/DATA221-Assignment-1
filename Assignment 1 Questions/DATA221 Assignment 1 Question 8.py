@@ -6,7 +6,7 @@ data = {
     "C": [800, 150, 400, 210]
 }
 
-def printNewDataframe(data):
+def printDataFrameFromData(data):
     newDataFrame = pd.DataFrame(data)
 
     # dividing column B by column C, according to the documentation of pandas
@@ -17,4 +17,4 @@ def printNewDataframe(data):
     
     print(newDataFrame)
 
-printNewDataframe(data)
+printDataFrameFromData(data)

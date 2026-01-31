@@ -12,4 +12,5 @@ def MultiplyUntilThreshold(threshold):
     print("Final product: ", product)
     print("Integer caused to the prouct to exceed the threshold:", multiplier)
 
-MultiplyUntilThreshold(100)
+# example code:
+# MultiplyUntilThreshold(100)

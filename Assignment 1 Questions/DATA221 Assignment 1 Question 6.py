@@ -29,5 +29,6 @@ def ListDistributionAnalysis(listInput=None):
     
     return sortedUniqueValueDictionary
 
-numbers = [5,1,2,3,1,2,2,2,3,3,5,5,0]
-print(ListDistributionAnalysis(numbers))
+# example code
+# numbers = [5,1,2,3,1,2,2,2,3,3,5,5,0]
+# print(ListDistributionAnalysis(numbers))
