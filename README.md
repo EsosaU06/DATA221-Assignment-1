@@ -16,11 +16,11 @@ Documents the length and numerical parity of each string in an inputted list. Re
 
 ## Question 3.py:
 
-Takes a list in which each element is a pair of integers. It iterates through the entire list and returns the calculations of the first integer to the power of the second integer. If either integer is less than zero, the element is skipped ad the program moves to the next element.
+Takes a list in which each element is a pair of integers. It iterates through the entire list and returns the calculations of the first integer to the power of the second integer. If either integer is less than zero, the element is skipped and the program moves to the next element.
 
 ## Question 4.py:
 
-Once a list of random numbers between 0 and 1 are created, the function will sort all the values from smallest to largest and check which numbers are smaller than the randomized $x$ value.
+Once a list of 20 random numbers between 0 and 1 are created, the function will sort all the values from smallest to largest and check which numbers are larger than or equal to the randomized $x$ value.
 
 ## Question 5.py:
 
@@ -28,11 +28,11 @@ Checks if both given radius values are valid numbers that are less than zero. Af
 
 ## Question 6.py:
 
-Analyzes the percentage of numbers in a given list. Returns a dictionary consisting of the numbers as keys and the values as the percentage of numbers in the list that are less than or equal to the number specified.
+Analyzes a list of integers. Returns a dictionary consisting of the integers as keys and the values as the percentage of integers in the list that are less than or equal to the one specified.
 
 ## Question 7.py:
 
-Receives numerical input for the amount of seconds since midnight. Returns the corresponding hours, minutes, and seconds in addition to returning if the amount of time would be in AM or PM.
+Receives numerical input for the amount of seconds since midnight. Returns the corresponding hours, minutes, and seconds in addition to rwhether the time is in AM or PM.
 
 ## Question 8.py:
 
